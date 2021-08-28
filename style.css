@@ -1,0 +1,251 @@
+/*  The Css Styling File  */
+
+/* 1.  Element  Styling :  */
+/* ---------------------------------------------------------------------------------------------------------- */
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+  }
+
+
+    body {
+
+        height : auto;
+        width : 100%;
+        background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+
+
+    span {
+        font-style: italic;
+        color:red;
+        font-size: 12px;
+        display: flex;
+        justify-content: flex-end;
+        margin: 5px;
+        visibility: hidden;
+    }
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* Element Styling */
+
+
+/* 2. Nav-bar Styling Starts Here...*/
+/* ---------------------------------------------------------------------------------------------------------- */
+  
+
+    .navbar {
+
+        background-color: #0f2027;
+        height: auto;
+        box-shadow: rgb(170, 170, 170) 0px 3px 5px;
+    }
+
+    #navbarSupportedContent {
+
+        margin-left: 20px;
+        width : 100%;
+
+    }
+
+    .navbar-brand {
+        border : 1px solid white;
+        border-radius: 5px;
+        padding : 0px 10px;
+        box-shadow: rgb(255, 254, 254) 0px 0px 4px;
+    }
+
+    h5 {
+        display: inline-block;
+        margin-left: 10px;
+        color: skyblue;
+    } 
+
+   .toggle{
+       border: 1px solid white;
+       box-shadow: rgb(255, 254, 254) 0px 0px 4px;
+   } 
+
+
+
+    
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* Nav Bar Styling  Ends Here...*/
+
+
+
+
+
+
+#content {
+
+    height: auto;
+
+}
+
+#slider {
+    margin-top: 20px;
+    /* border: 2px solid royalblue; */
+    height: auto;
+
+
+}
+
+.carousel.slide{
+    
+    width : 100%;
+    height :  auto;
+    box-shadow: rgb(147, 216, 243) 0px 0px 6px;
+} 
+
+
+
+
+/* 4a. Form Head Styling  Starts Here...*/
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+        h3 {
+
+            color : white;
+            border-radius:  5px ;
+            border: 1px solid rgb(216,214,214);
+            background-color : black;
+            font-size: 17px;
+            width : 100%;
+            text-align: center;
+            margin: 10px auto;
+            padding: 10px 0px;
+            text-shadow: 1px 1px 4px #FFF;
+        }
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* 4a. Form Head Styling Ends Here*/
+
+/* 4. Form Styling Starts here */
+/* ---------------------------------------------------------------------------------------------------------- */
+
+   .wrapper {
+       border : 2px solid rgba(12, 10, 10, 0.918);
+       margin-bottom: 5px;
+       padding: 0px 10px;
+       border-radius: 5px;
+   } 
+
+    #form {
+        margin-top : 20px;
+        height: auto;
+    }
+
+    .form {
+
+        border : 0.5px solid black;
+        padding: 10px;
+        height : auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        /* background-color:rgb(253, 253, 231); */
+        background-color: rgb(216,214,214);
+        box-shadow: rgb(244, 246, 247) 0px 0px 6px;
+        border-radius: 5px;
+    }
+
+    .form-label {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .form-control.fs5:focus {
+        border-color: #28a745;
+        box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+    } 
+
+    .form-group.success input {
+        border: 2px solid #2ecc71;
+    }
+
+    .form-group.error input {
+        border : 2px solid tomato;
+    }
+
+
+    .form-group.error span {
+        font-weight: 500;
+        visibility:visible;
+        color:red;
+    }
+
+    .form-group {
+        position : relative;
+        margin-top: 10px;
+    }
+
+    i {
+        position: absolute;
+        bottom: 36px;
+        right:7px;
+        visibility:hidden;
+    }
+
+    .form-group.success i.far.fa-check-circle {
+        position: absolute;
+        color:#2ecc71;
+        bottom: 31px;
+        right:7px;
+        visibility: visible;
+    }
+    
+    .form-group.error i.far.fa-times-circle {
+        position: absolute;
+        color:tomato;
+        bottom: 36px;
+        right:7px;
+        visibility: visible;
+    }
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* Form Styling Ends Here */
+
+/*  Button Styling */
+
+     .btn.btn-dark {
+       width: 100%;
+       margin: 10px auto 0px auto;
+       font-weight:bold;
+       text-shadow: 1px 1px 4px #FFF;
+       
+     }
+
+/* Button Styling */
+
+
+/* Input Field */
+
+    input {
+        width : 95%;
+    }
+
+
+
+    input:hover {
+
+        border : 2px solid purple;
+        background-color:rgb(245, 217, 164);
+
+    }
+
+
+
+
+
